@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../sass/styles.scss"
+	],
+	"sourcesContent": [
+		"// _base.scss\r\n$font-stack: Helvetica, sans-serif;\r\n$primary-color: #FF0000;\r\n$column-height: 400px;\r\n$column-width: 100%;\r\n\r\nbody {\r\n  font: 100% $font-stack;\r\n  background-color: $primary-color;\r\n}\r\n\r\n.text-center{\r\n    height: $column-height;\r\n    width: $column-width;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAMA,AAAA,IAAI,CAAC;EACH,IAAI,EAAE,IAAI,CANC,SAAS,EAAE,UAAU;EAOhC,gBAAgB,EANF,OAAO;CAOtB;;;AAED,AAAA,YAAY,CAAA;EACR,MAAM,EATM,KAAK;EAUjB,KAAK,EATM,IAAI;CAUlB"
+}
