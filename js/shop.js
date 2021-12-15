@@ -1,9 +1,13 @@
 // shop.js
 var cartTotal = localStorage.getItem('checkout');
 
-var additem = document.getElementById('addtocart');
-// add a listener for add to cart if such a button id is pressed
-additem.addEventListener("click", addToCart);
+var additemButtons = document.querySelectorAll('.addtocart');
+
+additemButtons.forEach(button => {
+    // add a listener for add to cart if such a button id is pressed
+    button.addEventListener("click", addToCart);
+});
+
 
 var clearBtn = document.querySelector('.clearStorage');
 clearBtn.addEventListener('click', ClearCart, false);

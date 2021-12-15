@@ -1,7 +1,11 @@
 
-var loginStatus = document.getElementById('login-form');
-// add a listener for add to cart if such a button id is pressed
-loginStatus.addEventListener("submit", loginUser);
+var loginStatus;
+if(document.getElementById('login-form') != undefined)
+{
+    loginStatus = document.getElementById('login-form');
+    // add a listener for add to cart if such a button id is pressed
+    loginStatus.addEventListener("submit", loginUser);
+}
 
 UpdateLoggedInField();
 
