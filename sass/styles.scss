@@ -6,7 +6,6 @@ $column-width: 100%;
 $store-item-maxheight: 30%;
 
 $store-header-image: url('../res/images/people-2943109.jpg');
-$about-header-image: url('../res/images/guitar-2816248.jpg');
 
 body {
   font: 100% $font-stack;
@@ -130,12 +129,6 @@ body {
   width: 2em;
   height: 1em;
   border: none;
-}
-
-.about-header{
-  background-image: $about-header-image;
-  margin-bottom:  2em;
-  background-size: cover;
 }
 
 .landing-categories i
