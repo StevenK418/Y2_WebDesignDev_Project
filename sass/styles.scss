@@ -5,8 +5,8 @@ $column-height: 400px;
 $column-width: 100%;
 $store-item-maxheight: 30%;
 
-$store-header-image: url('res/images/people-2943109.jpg');
-$about-header-image: url('res/images/guitar-2816248.jpg');
+$store-header-image: url('../res/images/people-2943109.jpg');
+$about-header-image: url('../res/images/guitar-2816248.jpg');
 
 body {
   font: 100% $font-stack;
@@ -16,10 +16,6 @@ body {
 .text-center{
     height: $column-height;
     width: $column-width;
-}
-
-#landing-carousel img{
-  // height: 40em;
 }
 
 .store-items{
@@ -147,9 +143,6 @@ body {
   font-size: 2em;
 }
 
-.mailing-list-section{
-
-}
 
 .page-content{
   margin-bottom: 2em;
