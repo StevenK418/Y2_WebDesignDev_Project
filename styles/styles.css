@@ -80,7 +80,7 @@ body {
 
 /* line 82, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .store-header {
-  background-image: url("/res/images/people-2943109.jpg");
+  background-image: url("res/images/people-2943109.jpg");
   background-size: cover;
   height: 15em;
 }
@@ -148,7 +148,7 @@ body {
 
 /* line 139, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .about-header {
-  background-image: url("/res/images/guitar-2816248.jpg");
+  background-image: url("res/images/guitar-2816248.jpg");
   margin-bottom: 2em;
   background-size: cover;
 }
