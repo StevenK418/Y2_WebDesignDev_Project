@@ -1,8 +1,11 @@
 // _base.scss
 $font-stack: Helvetica, sans-serif;
-$primary-color: #FF0000;
+$primary-color: inherit;
 $column-height: 400px;
 $column-width: 100%;
+$store-item-maxheight: 30%;
+
+$store-header-image: url('/res/images/guitar-2816248.jpg');
 
 body {
   font: 100% $font-stack;
@@ -18,8 +21,13 @@ body {
   height: 40em;
 }
 
-.shop-item{
-  border: 1px solid #232323;
+.store-items{
+  padding-top: 2em;
+}
+
+.store-item{
+  // border: 1px solid #232323;
+  margin: 0 auto;
 }
 
 .landing-intro-text{
@@ -49,7 +57,6 @@ body {
 .shopping-cart-btn i{
   font-size: 1em;
   color: #FFFFFF;
-  float: left;
   display: inline-block;
   margin-left: 1em;
 }
@@ -58,7 +65,6 @@ body {
   width: 2em;
   font-weight: lighter;
   color: #ffffff;
-  float: left;
   display: inline-block;
   margin-left: 1em;
   border: 1px solid #ffffff;
@@ -68,9 +74,60 @@ body {
 .logged-in-btn i{
   font-size: 2em;
   color: #FFFFFF;
-  float: left;
   display: inline-block;
   margin-left: 1em;
+}
+
+.logged-in-btn p{
+  display: inline-block;
+}
+
+.store-header{
+  background-image: $store-header-image;
+  background-size: cover;
+  height: 20rem;
+  margin-bottom: 5em;
+}
+
+#login-form{
+  margin-top: 20em;
+}
+
+.top-Sellers-header{
+  height: auto;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.store-content{
+  margin-bottom: 5em;
+}
+
+.store-category{
+  margin: 0 auto;
+  border: none;
+  text-align: center;
+}
+
+.categories-header{
+  text-decoration: underline;
+}
+
+.store-category img{
+  width: 5em;
+  height: 5em;
+  border-radius: 20em;
+  margin: 0 auto;
+}
+
+.store-item-rating{
+  list-style-type: none;
+  margin-left: 0;
+  display: inline-block;
+}
+
+.store-item-rating li{
+  display: inline-block;
 }
 
 @media screen and (max-width: 600px) {

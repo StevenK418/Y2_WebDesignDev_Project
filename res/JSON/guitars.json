@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "name": "Stratocaster 3000",
+        "Make": "Fender",
+        "Wood": "Steamed maple",
+        "features": 
+		{
+            "neck": "Rosewood",
+            "inlays": "pearl",
+			"Bridge": "Floyd Rose"
+        },
+		"finish": "Duck Egg Blue",
+		"RRP": "659.99",
+        "image": "/res/images/close-up-4564714.jpg"
+    },
+	{
+        "id": 1,
+        "name": "SG 2000",
+        "Make": "Yamaha",
+        "Wood": "Indonesian Mahogany",
+        "features": 
+		{
+            "neck": "Maple",
+            "inlays": "pearl",
+			"Bridge": "Fixed"
+        },
+		"finish": "Sunburst gold",
+		"RRP": "789.55",
+        "image": "/res/images/close-up-4564714.jpg"
+    }
+]
