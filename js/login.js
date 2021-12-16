@@ -1,13 +1,17 @@
-var loginStatus;
+var loginStatus = document.getElementById('login-form');
 
-if(window.location.href === 'store.html')
+if(loginStatus != null)
 {
-    loginStatus = document.getElementById('login-form');
     // add a listener for add to cart if such a button id is pressed
     loginStatus.addEventListener("submit", loginUser);
 }
 
+//Get a reference to the clear storage link in footer
+var clearBtn = document.querySelector('.clearStorage');
+//Subscribe to click events on this link and logout
+clearBtn.addEventListener('click', LogUserOut, false);
 
+//Update the loggedin field on load
 UpdateLoggedInField();
 
 function loginUser() {
@@ -31,6 +35,14 @@ function loginUser() {
     }
     UpdateLoggedInField();
     event.preventDefault();
+}
+
+function LogUserOut()
+{
+    //Reset loggedIn to 0
+    localStorage.setItem('loggedIn', 0);
+    //Update the logged in field
+    UpdateLoggedInField();  
 }
 
 function UpdateLoggedInField()

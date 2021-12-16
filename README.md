@@ -9,3 +9,7 @@ Repository: https://github.com/StevenK418/Y2_WebDesignDev_Project.git
 
 Page can be viewed live at: 
 https://stevenk418.github.io/Y2_WebDesignDev_Project/
+
+Instructions:
+
+User Clear Storage link in footer to logout and empty the shopping cart. 
