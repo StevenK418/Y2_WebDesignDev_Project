@@ -1,7 +1,12 @@
-var loginStatus =  document.getElementById('login-form');
+var loginStatus;
 
-// add a listener for add to cart if such a button id is pressed
-loginStatus.addEventListener("submit", loginUser);
+if(window.location.href === 'store.html')
+{
+    loginStatus = document.getElementById('login-form');
+    // add a listener for add to cart if such a button id is pressed
+    loginStatus.addEventListener("submit", loginUser);
+}
+
 
 UpdateLoggedInField();
 
@@ -30,10 +35,11 @@ function loginUser() {
 
 function UpdateLoggedInField()
 {
+    var userDetails = JSON.parse(localStorage.getItem('userdetails'));
     let statusLink = document.querySelector('.login-link');
     if(localStorage.getItem('loggedIn') == 1)
     {
-        statusLink.innerHTML = "";
+        statusLink.innerHTML = `Welcome: ${userDetails.firstName}`;
     }
     else{
         statusLink.innerHTML = "Login | signup";

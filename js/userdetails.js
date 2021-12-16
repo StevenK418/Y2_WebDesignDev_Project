@@ -13,6 +13,8 @@ if (localStorage.getItem('userdetails') === null)
     document.getElementById("addressLine1").setAttribute('value',userDetails.address1);       
     document.getElementById("addressLine2").setAttribute('value',userDetails.address2);
     document.getElementById("addressLine3").setAttribute('value',userDetails.address3);
+    document.getElementById("phoneNumber").setAttribute('value',userDetails.phone);
+    document.getElementById("emailAddress").setAttribute('value',userDetails.email);
 } 
 else 
 {
@@ -23,6 +25,8 @@ else
     document.getElementById("addressLine1").setAttribute('value',userDetails.address1);       
     document.getElementById("addressLine2").setAttribute('value',userDetails.address2);
     document.getElementById("addressLine3").setAttribute('value',userDetails.address3);
+    document.getElementById("phoneNumber").setAttribute('value',userDetails.phone);
+    document.getElementById("emailAddress").setAttribute('value',userDetails.email);
 }
 
 var userDetailsUpdate = document.getElementById('udetails');
@@ -38,8 +42,11 @@ function UpdateUserDetails()
     userDetails.address1=document.getElementById('addressLine1').value;   
     userDetails.address2=document.getElementById('addressLine2').value;
     userDetails.address3=document.getElementById('addressLine3').value; 
-  
+    userDetails.email = document.getElementById("emailAddress").value;
+    userDetails.phone = document.getElementById("phoneNumber").value;
     //Convert javascript object to string with JSON.stringify and save to localstorage
     localStorage.setItem('userdetails', JSON.stringify(userDetails));
     event.preventDefault();
+
+    window.location.href = "login.html";  // redirect to login page
 }
