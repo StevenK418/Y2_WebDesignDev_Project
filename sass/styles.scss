@@ -5,7 +5,7 @@ $column-height: 400px;
 $column-width: 100%;
 $store-item-maxheight: 30%;
 
-$store-header-image: url('/res/images/people-2943109.jpg');
+$store-header-image: url('../res/images/people-2943109.jpg');
 
 body {
   font: 100% $font-stack;
@@ -15,10 +15,6 @@ body {
 .text-center{
     height: $column-height;
     width: $column-width;
-}
-
-#landing-carousel img{
-  height: 40em;
 }
 
 .store-items{
@@ -85,7 +81,7 @@ body {
 }
 
 #login-form{
-  margin-top: 20em;
+  margin-top: 10em;
 }
 
 .store-categories{
@@ -135,7 +131,11 @@ body {
   border: none;
 }
 
-@media screen and (max-width: 996px) {
+.landing-categories i
+{
+  font-size: 2em;
+}
 
-
+.page-content{
+  margin-bottom: 2em;
 }

@@ -11,21 +11,16 @@ body {
 }
 
 /* line 20, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
-#landing-carousel img {
-  height: 40em;
-}
-
-/* line 24, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .store-items {
   padding-top: 2em;
 }
 
-/* line 28, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 24, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .store-item {
   margin: 0 auto;
 }
 
-/* line 32, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 28, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .landing-intro-text {
   float: left;
   text-align: left;
@@ -33,32 +28,32 @@ body {
   margin-left: 0;
 }
 
-/* line 39, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 35, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .landing-intro-text h1 {
   text-decoration: underline;
   font-weight: bold;
   margin-left: 0;
 }
 
-/* line 45, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 41, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .shopping-cart-btn {
   border-radius: 60px;
   border: none;
   text-align: center;
 }
 
-/* line 51, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 47, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .shopping-cart-btn:active {
   border: none;
 }
 
-/* line 55, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 51, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .shopping-cart-btn i {
   font-size: 2em;
   color: #FFFFFF;
 }
 
-/* line 60, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 56, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .cart-quantity {
   width: 2em;
   font-weight: lighter;
@@ -66,60 +61,60 @@ body {
   border-radius: 60px;
 }
 
-/* line 67, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 63, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .logged-in-btn {
   text-align: center;
 }
 
-/* line 71, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 67, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .logged-in-btn i {
   font-size: 2em;
   color: #FFFFFF;
 }
 
-/* line 76, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 72, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .logged-in-btn p {
   font-size: .7em;
   text-align: center;
 }
 
-/* line 81, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 77, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .store-header {
-  background-image: url("/res/images/people-2943109.jpg");
+  background-image: url("../res/images/people-2943109.jpg");
   background-size: cover;
   height: 15em;
 }
 
-/* line 87, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 83, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 #login-form {
-  margin-top: 20em;
+  margin-top: 10em;
 }
 
-/* line 91, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 87, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .store-categories {
   padding: 3em;
   margin-top: 0;
 }
 
-/* line 96, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 92, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .store-content {
   margin-bottom: 5em;
 }
 
-/* line 100, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 96, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .store-category {
   margin: 0 auto;
   border: none;
   text-align: center;
 }
 
-/* line 106, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 102, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .store-section-header {
   height: auto;
   text-decoration: underline;
 }
 
-/* line 111, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 107, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .store-category img {
   width: 5em;
   height: 5em;
@@ -127,28 +122,38 @@ body {
   margin: 0 auto;
 }
 
-/* line 118, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 114, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .store-items {
   margin-bottom: 2em;
 }
 
-/* line 122, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 118, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .store-item-rating {
   list-style-type: none;
   margin-bottom: .8em;
   padding-left: 0;
 }
 
-/* line 128, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 124, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .store-item-rating li {
   display: inline-block;
 }
 
-/* line 132, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+/* line 128, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
 .store-brand-logo {
   width: 2em;
   height: 1em;
   border: none;
+}
+
+/* line 134, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+.landing-categories i {
+  font-size: 2em;
+}
+
+/* line 139, ../../../Users/User/Documents/GitHub/Y2_WebDesignDev_Project/sass/styles.scss */
+.page-content {
+  margin-bottom: 2em;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -7,9 +7,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Register | Sign Up Now</title>
+        <title>About | About page for Guitar City</title>
         <link rel="shortcut icon" href="res/images/logo-2287665_1920.png" />
-        <meta name="description" content="Account registration page for guitar city guitar store site.">
+        <meta name="description" content="All about guitar city guitar store.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
@@ -32,7 +32,7 @@
                         <a class="nav-link" href="index.html">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="store.html">Store</a>
@@ -40,54 +40,44 @@
                       <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                       </li>
-                      </ul>
-                    <button class="btn logged-in-btn"><i class="bi bi-person-circle"></i><p class="login-status"><a href="login.html" class="login-link">Login / Signup</a></p></button> 
-                    <button class="btn shopping-cart-btn"><i class="bi bi-cart4"></i><p class="cart-quantity">0</p></button> 
+                    </ul>
+                    <button class="btn logged-in-btn shadow-none" type="button"><i class="bi bi-person-circle"></i><p class="login-status"><a href="login.html" class="login-link link-light">Login / Signup</a></p></button> 
+                    <button class="btn shopping-cart-btn shadow-none" type="button"><i class="bi bi-cart4"></i><p class="cart-quantity">0</p></button> 
                   </div>
                 </div>
               </nav>
-              <div class="container mt-5">
-                <form id="udetails">
-                    <legend>Sign Up</legend>
-                    <fieldset class="row name">
-                        <legend>Personal Details</legend>
-                        <div class="mb-3 col-6">
-                            <label for="firstName" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="firstName" aria-describedby="firstNameHelp">
-                            <div id="firstNameHelp" class="form-text">Enter your first name</div>
-                        </div>
-                        <div class="mb-3 col-6">
-                              <label for="lastName" class="form-label">Last Name</label>
-                              <input type="text" class="form-control" id="lastName" aria-describedby="lastNameHelp">
-                              <div id="lastNameHelp" class="form-text">Enter your last name</div>
-                        </div>
-                        <div class="mb-3 col-12">
-                          <label for="DOB" class="form-label">Date of Birth</label>
-                          <input type="date" class="form-control" id="DOB" aria-describedby="DOBHelp">
-                          <div id="DOBHelp" class="form-text">Enter your Date of birth</div>
-                      </div>
-                    </fieldset>
-                    <fieldset class="row name">
-                      <legend>Contact Details</legend>
-                        <div class="mb-3 col-6">
-                          <label for="addressLine1" class="form-label">Address line 1</label>
-                          <input type="text" class="form-control" id="addressLine1" aria-describedby="addressLine1Help">
-                          <div id="addressLine1Help" class="form-text">Address line 1</div>
-                        </div>
-                        <div class="mb-3 col-6">
-                          <label for="addressLine2" class="form-label">Address line 2</label>
-                          <input type="text" class="form-control" id="addressLine2" aria-describedby="addressLine2Help">
-                          <div id="addressLine2Help" class="form-text">Address line 2</div>
-                        </div>
-                        <div class="mb-3 col-6">
-                          <label for="addressLine3" class="form-label">Address line 3</label>
-                          <input type="text" class="form-control" id="addressLine3" aria-describedby="addressLine3Help">
-                          <div id="addressLine3Help" class="form-text">Address line 3</div>
-                        </div>
-                    </fieldset>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-              </div>
+              <header class="bg-dark py-5 store-header mb-5">
+                <div class="container px-4 px-lg-5 my-3">
+                    <div class="text-center text-white">
+                        <h1 class="display-4 fw-bolder">About us</h1>
+                        <p class="lead fw-normal text-white-50 mb-0">Who we are!</p>
+                    </div>
+                </div>
+            </header>
+            <div class="container page-content">
+                <div class="row">
+                    <div class="about-title"><h2>About</h2></div>
+                    <div class="col-md-7">
+                        <p>
+                            Guitar city started in 1962 from humble beginnings in a small corner of Templebar, Dublin. 
+                            Our owner, John Doe came from a well known musical family. His love of music led to him starting his very own shop guitar shop
+                            and the shop has been the number one name in all things music since. An instant hit, local musicians would trust no one else but 
+                            John and his staff for their professional expertise of all things guitar related.
+                        </p>
+                        <p>
+                            In 1986, the store, now grown beyond it's humble premises, moved from Templebar to O Connell street where it stands to this day. 
+                            From locals, to tourists, to professional rockstars, Guitar city has seen customers from all walks of life and continues to serve 
+                            the musical community of Ireland since it's founding. 
+                        </p>
+                        <p>
+                            Whether it's an instrument, sheet music, or advice you need, our team at guitar city are happy to help with any of of your musical needs.
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="res/images/store1.jpg" class="img-thumbnail" alt="a picture of inside guitar city guitar store">
+                    </div>
+                </div>
+            </div>
         </main>
         <footer class="bg-dark py-4 mt-auto fixed-bottom">
           <div class="container px-5">
@@ -106,10 +96,9 @@
                   </div>
               </div>
           </div>
-      </footer>
+        </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="js/login.js" async defer></script>
-        <script src="js/userdetails.js" async defer></script>
         <script src="js/shop.js" async defer></script>
+        <script src="js/login.js"></script>
     </body>
 </html>
