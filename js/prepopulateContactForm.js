@@ -3,7 +3,7 @@
 
 var userDetails = JSON.parse(localStorage.getItem('userdetails'));
 
-if(userDetails != null)
+if(localStorage.getItem('userdetails') != null)
 {
     //Retreive and concatenate names from local storage
     var userName = userDetails.firstName + " " + userDetails.lastName;
