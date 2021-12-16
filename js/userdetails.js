@@ -3,7 +3,7 @@
 //Data can be viewed and updated via register.html
 if (localStorage.getItem('userdetails') === null) 
 {  
-    var userDetails = {firstName:"Walter", lastName:"Mitty", dob:"1990-12-01",address1:"Buenos Ayres Drive", address2:"Strandhill", address3:"Co. Sligo"};
+    var userDetails = {firstName:"Walter", lastName:"Mitty", dob:"1990-12-01",address1:"Buenos Ayres Drive", address2:"Strandhill", address3:"Co. Sligo", email:"wmitty@email.com", phone: "0451234567"};
    
     localStorage.setItem('userdetails',JSON.stringify(userDetails));
 
