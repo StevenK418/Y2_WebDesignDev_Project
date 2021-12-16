@@ -1,8 +1,11 @@
 // _base.scss
 $font-stack: Helvetica, sans-serif;
-$primary-color: #FF0000;
+$primary-color: inherit;
 $column-height: 400px;
 $column-width: 100%;
+$store-item-maxheight: 30%;
+
+$store-header-image: url('../res/images/people-2943109.jpg');
 
 body {
   font: 100% $font-stack;
@@ -12,4 +15,127 @@ body {
 .text-center{
     height: $column-height;
     width: $column-width;
+}
+
+.store-items{
+  padding-top: 2em;
+}
+
+.store-item{
+  margin: 0 auto;
+}
+
+.landing-intro-text{
+  float: left;
+  text-align: left;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.landing-intro-text h1{
+  text-decoration: underline;
+  font-weight: bold;
+  margin-left: 0;
+}
+
+.shopping-cart-btn{
+  border-radius: 60px;
+  border: none;
+  text-align: center;
+}
+
+.shopping-cart-btn:active{
+    border: none;
+}
+
+.shopping-cart-btn i{
+  font-size: 2em;
+  color: #FFFFFF;
+}
+
+.cart-quantity{
+  width: 2em;
+  font-weight: lighter;
+  color: #ffffff;
+  border-radius: 60px;
+}
+
+.logged-in-btn{
+  text-align: center;
+}
+
+.logged-in-btn i{
+  font-size: 2em;
+  color: #FFFFFF;
+}
+
+.logged-in-btn p{
+  font-size: .7em;
+  text-align: center;
+}
+
+.store-header{
+  background-image: $store-header-image;
+  background-size: cover;
+  height: 15em;
+}
+
+#login-form{
+  margin-top: 10em;
+}
+
+.store-categories{
+  padding: 3em;
+  margin-top: 0;
+}
+
+.store-content{
+  margin-bottom: 5em;
+}
+
+.store-category{
+  margin: 0 auto;
+  border: none;
+  text-align: center;
+}
+
+.store-section-header{
+  height: auto;
+  text-decoration: underline;
+}
+
+.store-category img{
+  width: 5em;
+  height: 5em;
+  border-radius: 20em;
+  margin: 0 auto;
+}
+
+.store-items{
+  margin-bottom: 2em;
+}
+
+.store-item-rating{
+  list-style-type: none;
+  margin-bottom: .8em;
+  padding-left: 0;
+}
+
+.store-item-rating li{
+  display: inline-block;
+}
+
+.store-brand-logo{
+  width: 2em;
+  height: 1em;
+  border: none;
+}
+
+.landing-categories i
+{
+  font-size: 2em;
+}
+
+.page-content{
+  margin-bottom: 2em;
 }
